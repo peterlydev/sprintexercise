@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+    background-color: red;
+}
+
+header{
+    margin: 60px 0;
+    padding: 10px 5% 10px 5%;
+}
+
+h1{
+    display: inline;
+    text-align: center;
+    font-size: 3em;
+}
+
+.links li{
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    bottom: 35px;
+    padding: 10px;
+    
+}
+
+.links a{
+    font-weight: bold; 
+    color: white;   
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: brown;
+    color:black
+}
+
+.history h2{
+    text-decoration: underline;
+}
+
+.history p{
+    display: inline-block;
+    margin: 20px 0;
+    width: 50%;
+    line-height: 1.7em;
+    padding: 5px;
+   
+}
+
+.history img{
+    position: relative;
+    float: right;
+    top: 30px;
+    width: 50%;
+}
+
+.directives h2{
+    margin: 40px 0;
+    text-decoration: underline;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+
+}
+
+.container-2 div{
+    margin: 10px;
+    height: 400px;
+    width:500px;
+    border: 10px solid black;
+}
+
+.container-2 div img{
+    background-size:auto;
+}
+
+.image-1{
+    background-image: url('owner.jpg');
+}
+
+.image-2{
+    background-image:url('chairman.png')
+}
+
+.image-3{
+    background-image:url('manager.jpg')
+}
+
+.container-2 p{
+    font-weight: bold;
+    text-align: center;
+    position:relative;
+    bottom: 40px;
+}
+
+.stadium h2{
+    text-decoration: underline;
+}
+
+.stadium p, .stadium img{
+    margin: 20px 0;
+}
+
+.stadium img{
+    margin: 20px 0;
+    width: 1000px;
+}
+
+footer{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.results h2{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    margin: 40px auto;
+    border:5px solid black;
+}
+
+table th, table td{
+    border: 1px dotted black;
+}
+
+.players h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media (max-width: 760px){
+    body{
+        background-color:aquamarine;
+    }
+
+
+
+}
