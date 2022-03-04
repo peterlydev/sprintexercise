@@ -15,6 +15,11 @@ header, footer{
     background-color: red;
 }
 
+.banner .logo{
+    position: relative;
+    right: 3%;
+}
+
 header{
     margin: 60px 0;
     padding: 10px 5% 10px 5%;
@@ -54,7 +59,7 @@ h1{
     display: inline-block;
     margin: 20px 0;
     width: 50%;
-    line-height: 1.7em;
+    line-height: 1.3em;
     padding: 5px;
    
 }
